@@ -50,32 +50,6 @@ A modern, responsive landing page for a SaaS product with an interactive pricing
 - A modern web browser
 - A local web server (optional, for development)
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/saas-landing-page.git
-   cd saas-landing-page
-   ```
-
-2. **Open in browser**
-   - Simply open `index.html` in your web browser
-   - Or use a local server:
-     ```bash
-     # Using Python
-     python -m http.server 8000
-     
-     # Using Node.js
-     npx serve .
-     
-     # Using PHP
-     php -S localhost:8000
-     ```
-
-3. **View the site**
-   - Navigate to `http://localhost:8000` (if using a server)
-   - Or open `index.html` directly in your browser
-
 ## 📁 Project Structure
 
 ```
@@ -177,14 +151,6 @@ The modular JavaScript structure makes it easy to add new features:
 - **Smooth animations**: Hardware-accelerated transitions
 - **Mobile optimized**: Touch-friendly interactions
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -195,16 +161,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Icons from emoji characters for simplicity
 - Color palette inspired by Tailwind CSS
 - Typography based on system font stacks
-
-## 📞 Support
-
-If you have any questions or need help with this project:
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/saas-landing-page/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/saas-landing-page/discussions)
-- **Email**: your.email@example.com
-
----
 
 **Made with ❤️ for modern SaaS businesses**
 
