@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudFlow - Streamline Your Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>CloudFlow</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#calculator" class="nav-link">Calculator</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Streamline Your Business with <span class="gradient-text">CloudFlow</span></h1>
+                <p class="hero-description">The all-in-one platform that helps you manage, scale, and grow your business with powerful automation tools and real-time analytics.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Start Free Trial</button>
+                    <button class="btn-secondary">Watch Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>10K+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat">
+                        <h3>99.9%</h3>
+                        <p>Uptime</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <h4>Analytics Dashboard</h4>
+                        <div class="chart-placeholder"></div>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <h4>Team Management</h4>
+                        <div class="team-avatars">
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <h4>Real-time Updates</h4>
+                        <div class="notification-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Modern Businesses</h2>
+                <p>Everything you need to manage and grow your business in one place</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Get deep insights into your business performance with real-time analytics and custom reports.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Automation Tools</h3>
+                    <p>Automate repetitive tasks and workflows to save time and increase productivity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Enterprise Security</h3>
+                    <p>Bank-level security with end-to-end encryption and compliance with industry standards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile Ready</h3>
+                    <p>Access your dashboard and manage your business from anywhere with our mobile app.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>API Integration</h3>
+                    <p>Connect with your favorite tools through our comprehensive API and webhook system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Built for speed with optimized performance and global CDN for instant loading.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Calculate Your Savings</h2>
+                <p>See how much CloudFlow can save your business</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-inputs">
+                    <div class="input-group">
+                        <label for="users">Number of Users</label>
+                        <div class="slider-container">
+                            <input type="range" id="users" min="1" max="1000" value="10" class="slider">
+                            <span class="slider-value" id="users-value">10</span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="storage">Storage (GB)</label>
+                        <div class="slider-container">
+                            <input type="range" id="storage" min="10" max="10000" value="100" step="10" class="slider">
+                            <span class="slider-value" id="storage-value">100 GB</span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="api-calls">API Calls (per month)</label>
+                        <div class="slider-container">
+                            <input type="range" id="api-calls" min="1000" max="1000000" value="10000" step="1000" class="slider">
+                            <span class="slider-value" id="api-calls-value">10,000</span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="support">Support Level</label>
+                        <select id="support" class="select-input">
+                            <option value="basic">Basic Support</option>
+                            <option value="priority">Priority Support</option>
+                            <option value="enterprise">Enterprise Support</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="calculator-result">
+                    <div class="result-card">
+                        <h3>Your Estimated Cost</h3>
+                        <div class="price-display">
+                            <span class="currency">$</span>
+                            <span class="price" id="total-price">49</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="savings">
+                            <span class="savings-label">You save:</span>
+                            <span class="savings-amount" id="savings-amount">$1,200</span>
+                            <span class="savings-period">/year</span>
+                        </div>
+                        <button class="btn-primary">Start Free Trial</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Join thousands of satisfied customers who trust CloudFlow</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"CloudFlow has revolutionized how we manage our business. The automation features alone have saved us 20 hours per week!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JS</div>
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The analytics dashboard gives us insights we never had before. Our revenue increased by 40% in just 3 months."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Maria Johnson</h4>
+                            <p>Founder, GrowthCo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Outstanding customer support and the platform is incredibly reliable. We've had zero downtime since switching."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DB</div>
+                        <div class="author-info">
+                            <h4>David Brown</h4>
+                            <p>CTO, InnovateLab</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that fits your business needs</p>
+                <div class="pricing-toggle">
+                    <span class="toggle-label" id="monthly-label">Monthly</span>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="pricing-toggle" class="toggle-input">
+                        <label for="pricing-toggle" class="toggle-slider"></label>
+                    </div>
+                    <span class="toggle-label" id="yearly-label">Yearly</span>
+                    <span class="savings-badge" id="yearly-savings">Save 20%</span>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="yearly-savings" style="display: none;">
+                            <span class="savings-text">Save $72/year</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Up to 5 users</li>
+                        <li>50GB storage</li>
+                        <li>Basic analytics</li>
+                        <li>Email support</li>
+                        <li>API access</li>
+                    </ul>
+                    <button class="btn-outline">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">79</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="yearly-savings" style="display: none;">
+                            <span class="savings-text">Save $192/year</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Up to 25 users</li>
+                        <li>500GB storage</li>
+                        <li>Advanced analytics</li>
+                        <li>Priority support</li>
+                        <li>Full API access</li>
+                        <li>Automation tools</li>
+                    </ul>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">199</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="yearly-savings" style="display: none;">
+                            <span class="savings-text">Save $480/year</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Unlimited users</li>
+                        <li>Unlimited storage</li>
+                        <li>Custom analytics</li>
+                        <li>24/7 support</li>
+                        <li>Custom integrations</li>
+                        <li>White-label options</li>
+                    </ul>
+                    <button class="btn-outline">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CloudFlow</h3>
+                    <p>Streamline your business with powerful automation and analytics.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CloudFlow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
